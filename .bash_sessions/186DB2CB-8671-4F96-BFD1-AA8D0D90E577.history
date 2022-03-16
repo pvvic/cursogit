@@ -1,0 +1,501 @@
+ls
+sudo nano .bash_profile
+emulator -avd Nexus_4_API_18 &
+adb chell
+adb shell
+ls
+monitor
+monitor
+monitor
+emulator -list-avds
+emulator -avd Nexus_4_API_18
+emulator -avd Nexus_4_API_18 &
+emulator -avd Nexus_4_API_18 &
+emulator -avd Nexus_4_API_18 &
+monitor
+adb devices
+monitor &
+adb -s emulator-5554 logcat
+adb -s emulator-5554 logcat | grep com.android.browser
+adb -s emulator-5554 logcat | grep 1445
+emulator -list-avds
+emulator -avd Nexus_4 &
+emulator -list-avds
+emulator -avd Nexus_4_API_24 &
+ls
+adb shell
+emulator -list-avds
+emulator -avd Nexus_4_API_23 &
+ls
+ls
+emulator -avd Nexus_4_API_23 &
+ls
+adb devices
+adb -s emulator-5556 shell
+adb root
+adb shell
+monitor
+adb kill-server
+adb kill-server
+adb root
+adb shell
+adb root
+nslookup
+ls
+nslookup www.google.es
+nslookup gmail.com
+nslookup gmail.com 216.58.201.133
+nslookup -type=ns gmail.com
+nslookup gmail.com 216.239.32.10
+nslookup gmail.com
+nslookup -type=a gmail.com
+nslookup -type=any gmail.com
+nslookup -type=any reddit.com
+nslookup -type=hinfo reddit.com
+nslookup -type=a gmail.com
+nslookup -type=any gmail.com
+nslookup -type=a gmail.com
+nslookup -type=any www.gmail.com
+nslookup -type=any gmail.com
+nslookup -type=a gmail.com
+nslookup -type=aaaa gmail.com
+nslookup -type=mx gmail.com
+nslookup -type=cname gmail.com
+nslookup -type=cname www.gmail.com
+nslookup -type=ns .
+nslookup www.ntchosting.com
+nslooup in-addr.arpa
+dig +short 213.60.205.175 TXT | tail -1
+dig
+dig 213.60.205.175
+dig 8.8.8.8
+dig gmail.com
+dig 10.42.68.240
+nslookup -q=ns gmail.com
+dig 216.239.34.10
+nslookup hotmail.com
+nslookup -q=ns hotmail.com
+dig 208.84.0.53
+dig 8.26.56.26
+dig 8.20.247.20
+dig 194.150.168.168
+dig 77.109.148.137
+dig +dnsseec 77.109.148.137
+dig 77.109.148.137 +dnssec
+dig pir.org +dnssec
+dig pir.org +dnssec +multi
+dig dnssectest.sidn.nl +dnssec +multi
+dig gmailcom +dnssec +multi
+dig gmail.com +dnssec +multi
+dig +dnssec www.isoc.org.
+dig +dnssec 213.60.205.175
+dig +dnssec 8.8.8.8
+dig +dnssec @184.105.193.73 iis.se
+dig +dnssec iis.se
+dig +dnssec @184.105.193.73 8.8.8.8
+dig +dnssec @184.105.193.73 wikipedia.org
+dig +dnssec @184.105.193.73 gmail.com
+dig +dnssec @8.8.8.8 8.8.8.8
+nslookup -q=ns mundo-r.com
+dig +dnssec @8.8.8.8 ns.mundo-r.com
+nslookup -q=ns gmail.com
+dig +dnssec @8.8.8.8 ns2.google.com
+nslookup -q=ns google.com
+dig +dnssec @8.8.8.8 ns3.google.com
+nslooup -q=ns gmail.com
+nslooup -q=ns hotmail.com
+nslookup -q=ns hotmail.com
+dig +dnssec @8.8.8.8 ns1.msft.net
+dig +dnssec @8.8.8.8 208.84.0.53
+nslooup -q=ns gmail.com
+nslookup -q=ns gmail.com
+dig +dnssec @8.8.8.8 216.239.34.10
+nslookup -q=ns mundo-r.co
+dig +dnssec @8.8.8.8 212.51.33.106
+abd root
+adb root
+adb shell ls
+adb shell ls /data/data
+adb shell
+ls
+nslookup -type=cname gmail.com
+nslookup -type=cname www.gmail.com
+ping 172.16.64.1
+nslookup -type=ptr 173.16.64.1
+nslookup -type=aaaa youtube.com
+nslookup -type=txt youtube.com
+nslookup -type=txt reddit.com
+nslookup -type=ptr 4.4.8.8.in-addr.arpa
+nslookup 8.8.4.4
+nslookup -type=txt duckduckgo.com
+nslookup -type=a duckduckgo.com
+nslookup -type=ptr 174.210.58.216.in-addr.arpa
+adb root
+adb shell
+adb shell
+ping ns1.srv-acens.com
+nslookup -type=ns acens.com
+nslookup -type=any acens.com
+nslookup acens.com
+nslookup acens.net
+nslookup ns1.acens.net acens.com
+nslookup acens.com ns1.acens.net
+adb root
+adb
+adb root
+adb shell
+pull
+adb pull
+adb pull /storage/emulated/0/android/data/com.example.victorpv.camarafotografica/files/Pictures/JPEG_20171205_101951_5390297456065836635.jpg 
+ls
+pwd
+adb ls -l /storage/emulated/0/android/data/com.example.victorpv.camarafotografica/files/Pictures/
+adb shell ls -l /storage/emulated/0/android/data/com.example.victorpv.camarafotografica/files/Pictures/
+adb pull /storage/emulated/0/android/data/com.example.victorpv.camarafotografica/files/Pictures/JPEG_20171205_103104_3296608369498204703.jpg
+keytool
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+nslookup -q=mx gmail.com
+nslookup -query=mx gmail.com
+nslookup -qwery=mx gmail.com
+nslookup -type=ptr 229.211.58.216.in-addr.arpa
+./gradlew desktop:dist
+./gradlew --help
+./gradlew 
+set 
+java
+set
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
+ArumeArpado-3:test victorpv$ export JAVA_HOME=/Library/Java/JavaVirtualMachines/JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/Contents/Home
+ArumeArpado-3:test victorpv$ export JAVA_HOME=/Library/Java/JavaVirtualMachines/JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
+./gradlew desktop:dist
+./gradlew desktop:dist
+./gradlew desktop:dist
+./gradlew desktop:dist
+./gradlew desktop:dist
+sudo su
+sudo su
+sudo su
+sudo su
+sudo su
+sudo su
+netstat -noa
+netstat
+netstat -noa
+netstat noa
+netstat -putona
+netstat -an
+netstat -ano
+netstat -putna
+netstat -an
+netstat
+netstat -putna
+sudo su
+sudo su
+sudo su
+sudo su
+gradelw desktop:dist
+./gradlew desktop:dist
+./gradlew desktop:dist
+sudo su
+ifconfig
+iwconfig en0
+sudo su
+nslookup -type=txt youtube.com
+VBoxManage
+ls
+ls
+cd /Users/victorpv/VirtualBox VMs/16.04-UbuntuServer/16.04-UbuntuServer.vdi
+cd /Users/victorpv/VirtualBox VMs/16.04-UbuntuServer
+ls
+cd /Users/victorpv/VirtualBox VMs
+ls
+VirtualBox VirtualBox\ VMs/
+cd VirtualBox\ VMs/
+ls
+cd 16.04-UbuntuServer/
+ls
+ls
+VBoxManage modifyhd 16.04-UbuntuServer.vdi --resize 10000
+ls
+ls Desktop
+nslookup 213.60.205.175
+nslookup ns01.mundo-r.com
+nslookup 213.60.205.175
+nslookup 213.60.205.175
+adb devices
+adb devices
+adb shell
+adb root
+adb shell
+nslookup -type=cname www.google.es
+nslookup -type=cname www.xunta.esç
+nslookup -type=cname www.xunta.es
+nslookup proxygold.xunta.es
+nslookup -type=a www.xunta.es
+ls
+nslookup -q=mx gmail.com
+nslookup -type=cname gmail.com
+nslookup -type=cname www.gmail.com
+nslookup -type=any www.gmail.com
+nslookup -type=cname googll.com
+nslookup -type=cname google.com
+nslookup -type=any google.com
+nslookup -type=any hotmail.com
+nslookup -type=any wikipedia.org
+nslookup -type=any xunta.es
+nslookup -type=any edu.xunta.es
+nslookup -type=any www.edu.xunta.es
+nslookup -type=any edu.xunta.es
+nslookup -type=any microsoft.com
+nslookup -type=any reddit.com
+nslookup -type=any mundo-r.com
+nslookup -type=any www.mundo-r.com
+nslookup -query=ns gmail.com
+nslookup -querty=ns gmail.com
+adb shell
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Unity3DProjects/
+ls
+cd Roll-a-ball/
+ls
+cd Builds/
+ls
+adb install roll-a-ball.apk 
+ls
+cd ..
+ls
+cd ..
+dir
+ls
+cd Roll-a-ballModificado/
+cd Builds/
+ls
+adb install roll-a-ball.apk 
+ls
+cd Desktop/Borrar/
+ls
+cd apks/
+ls
+apk d pokemongo.apk
+apktool d pokemongo.apk 
+ls /usr/local/bin
+sudo su
+/Applications/AutoFirma.app/Contents/Resources/Home/bin/AutoFirma ; exit;
+ping 10.42.68.79
+ping 10.42.68.246
+nslookup 10.42.68.246
+ping smtp.pascualabogados.com
+nslookup smtp.pascualabogados.com
+ping 213.149.227.10
+ping pop.pascualabogados.com
+nslookup smtp.pascualabogados.com
+ping smtp.pascualabogados.com
+ping smtp.pascualabogados.com
+ping smtp.pascualabogados.com
+ping smtp.pascualabogados.com
+nslookup ask4.com
+nslookup ask4.com
+nslookup ask4.com
+ping 8.8.8.8
+ping 10.42.68.254
+ping 172.1.34.10
+ipconfig 172.1.34.10
+nslookup 172.1.34.10
+nslookup -type=cname gmail.com
+nslookup -type=any gmail.com
+nslookup -type=any xunta.es
+nslookup -type=any www.xunta.es
+nslookup www.xunta.es
+nslookup -type=cname www.xunta.es
+nslookup -type=a www.xunta.es
+ping 8.8.8.8
+nslookup google.com
+nslookup google.com
+ping 213.60.205.175
+nslookup www.lavozdegalicia.es
+nslookup www.lavozdegalicia.es 8.8.8.8
+ping 213.60.205.175
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+ping 213.60.205.175
+ping 8.8.8.8
+ping 8.8.4.4
+ping 213.60.205.175
+nslookup google.es
+ping 8.8.4.4
+ping 8.8.8.8
+ping 8.8.8.8
+ping 213.60.205.175
+ping 213.60.205.175
+ping 8.8.8.8
+ping 8.8.8.8
+ping 213.60.205.175
+ping smtp.pascualabogados.com
+ping smtp.pascualabogados.com
+ifconfig
+nslookup -type=any xuntaes
+nslookup -type=any xunta.es
+nslookup -type=all xunta.es
+nslookup -type=any edu.xunta.gal
+nslookup pop.pascualabogados.com
+ping 213.149.227.2
+ifconfig
+ls
+pwd
+cd NetBeansProjects/webScrapingPvPoke/
+ls
+pwd
+ifconfig
+ping 192.168.0.16
+ifconfig
+nslookup www.google.es
+ip a
+ip
+ip
+ip show
+ip
+sudo add-apt-repository ppa:kdenlive/kdenlive-master
+sudo add-apt-repository ppa:kdenlive/kdenlive-master
+xcrum 
+xcrun
+crun simctl list
+xcrun simctl list
+xcrun simctl list
+pwd
+ls
+cd Desktop
+ls
+cd ..
+cd Desktop/
+ls
+cd Desktop
+ls
+cd Borrar
+ls
+pwd
+cd Desktop/Borrar/XCode/
+ls
+cd Payload/
+ls
+xcrun simctl list
+xcrun simctl install 250C95E7-D8CA-4A45-AD1C-C807774A4CAB pokemongo.app
+xcrun simctl install 250C95E7-D8CA-4A45-AD1C-C807774A4CAB pokemongo.app
+cd Desktop/Borrar/XCode/Payload/
+xcrun simctl install 250C95E7-D8CA-4A45-AD1C-C807774A4CAB pokemongo.app
+ls
+xcrun simctl install 250C95E7-D8CA-4A45-AD1C-C807774A4CAB pokemongo.app.zip 
+InstallApp
+xcrun simctl install 250C95E7-D8CA-4A45-AD1C-C807774A4CAB pokemongo.app
+cls
+xcrun simctl install 250C95E7-D8CA-4A45-AD1C-C807774A4CAB pokemongo.app
+xcrun simctl delete unavailable
+security list-keychains
+security delete-keychain /private/var/folders/h6/t780f1y539s0cps320z0sz600000gn/T/iOS Developer: Victor Alfredo Pascual Vazquez (Víctor Alfredo Pascual Vázquez)~~~LHmUm2/iOS Developer: Victor A"
+security delete-keychain "/private/var/folders/h6/t780f1y539s0cps320z0sz600000gn/T/iOS Developer: Victor Alfredo Pascual Vazquez (Víctor Alfredo Pascual Vázquez)~~~LHmUm2/iOS Developer: Victor Alfredo Pascual Vazquez (Víctor Alfredo Pascual Vázquez).keychain"
+security delete-keychain "/private/var/folders/h6/t780f1y539s0cps320z0sz600000gn/T/iOS Developer: Victor Alfredo Pascual Vazquez (Víctor Alfredo Pascual Vázquez)~~~LHmUm2/iOS Developer"
+security delete-keychain "/private/var/folders/h6/t780f1y539s0cps320z0sz600000gn/T/iOS Developer"
+security delete-keychain "/private/var/folders/h6/t780f1y539s0cps320z0sz600000gn/T/iOS Developer"
+security delete-keychain "/private/var/folders/h6/t780f1y539s0cps320z0sz600000gn/T/iOS Developer"
+ls -l /Library/Keychains
+security list-keychains
+security delete-keychain "Victor Alfredo Pascual Vazquez (Víctor Alfredo Pascual Vázquez).keychain"
+ls -l /Users/victorpv/Library/Keychains/
+security list-keychains
+xcode-select --install
+xcode-select --install
+ping masterrussian.om
+ping masterrussian.com
+;2C
+ping masterrussian.com
+ping 69.168.53.242
+ping 39.168.53.242
+ping 10.42.68.253
+dot_clean
+dot_clean 
+ls /dev
+ls /mount
+cd ..
+ls
+cd ..
+ls
+cd /
+ls
+cd Volumes/
+ls
+cd Nuevo vol
+cd Nuevo\ vol/
+ls
+cd found.000/
+cd ..
+cd Fotos/
+ls
+cd xxx
+ls
+cd ls
+ls
+cd Camion/
+ls
+ls Descargar
+ls /Users
+ls /Users/victorpv/
+ls /Users/victorpv/Downloads/
+cp IMG_1040.MOV /Users/victorpv/Downloads/
+ls
+cd /
+.s
+ls
+cd Volumes
+ls
+cd Nuevo\ vol/
+ls
+cd found.000/
+cd ..
+cd fotos
+cd xxx
+cd Camion/
+ls
+dot_clean .
+/Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app/Contents/MacOS/VirtualBoxVM ; exit;
+/Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app/Contents/MacOS/VirtualBoxVM ; exit;
+diskutil list
+diskutil info disk2
+diskutil info disk2 eject
+diskutil eject disk2
+diskutil mount disk2
+diskutil mountDisk disk2
+cd /volumes
+ls
+ls "Nuevo vol/fotos"
+ls "Nuevo vol/fotos/xxx/Camion"
+ls "Nuevo vol/fotos/xxx/Camion/IMG_1040.mov"
+cp -Rp "Nuevo vol/fotos/xxx/Camion/IMG_1040.mov" Seagate\ Exp/Sistema/Práctica/global/Camión/
+ls Seagate\ Exp/Sistema/Práctica/global/Camión/
+cp Nuevo\ vol/Fotos/xxx/Camion/IMG_1040.MOV Seagate\ Exp/Sistema/Práctica/global/Camión/
+dd
+dd if=/Volumes/CD/broken_movie.avi of=~/Movies/broken_movie.avi conv=noerror,sync
+dd if=Nuevo\ vol/Fotos/xxx/Camion/IMG_1040.MOV of=Seagate\ Exp/Sistema/Práctica/global/Camión/broken_movie.MOV conv=noerror,sync
+ip a
+ifconifg
+ipconfig
+ipconfig getifaddr en0
+ipconfig getifaddr en1
+ipconfig getifaddr en0
+ping 213.60.205.175
+/Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app/Contents/MacOS/VirtualBoxVM ; exit;
+/Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app/Contents/MacOS/VirtualBoxVM ; exit;
+sysctl -a | grep machdep.cpu.features
+VBoxManage
+VBoxManage modifyvm Router20 --nested-hw-virt on
+VBoxManage modifyvm 18.04-UbuntuServer --nested-hw-virt on
+VBoxManage modifyvm 18.04-UbuntuDesktop --nested-hw-virt on
+/Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app/Contents/MacOS/VirtualBoxVM ; exit;
+/Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app/Contents/MacOS/VirtualBoxVM ; exit;
